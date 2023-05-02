@@ -22,10 +22,10 @@ public class OrderType {
 	@Column (name="name")
 	private String name;
 	
-	public int getTypeId() {
+	public int getOrderTypeId() {
 		return orderTypeId;
 	}
-	public void setTypeId(int orderTypeId) {
+	public void setOrderTypeId(int orderTypeId) {
 		this.orderTypeId = orderTypeId;
 	}
 	public String getCode() {
